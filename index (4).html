@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width"> 
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" /> 
+  <style>
+    body {
+      font-family: 'Arial', sans-serif; /* 添加字体样式 */
+      background-color: #f4f4f4; /* 背景色 */ 
+      margin: 0;
+      padding: 0;
+      color: purple; /* 设置默认字体颜色为紫色 */
+    }
+
+    .custom-text { 
+      background-color: purple;
+      color: white;
+      padding: 10px;
+      text-align: center; /* 文本居中 */
+    }
+
+    h2, h3 {
+      color: purple; /* 标题颜色改为紫色 */
+    }
+
+    p {
+      color: purple; /* 段落文本颜色改为紫色 */
+      line-height: 1.6; /* 行间距 */
+    }
+
+    section {
+      padding: 20px; /* 节区域间距 */
+    }
+
+    .mx-auto {
+      margin-right: auto; 
+      margin-left: auto;
+    }
+
+    .max-w-5xl {
+      max-width: 1280px; /* 最大宽度 */
+    }
+
+    .px-5, .py-16, .md:px-10, .md:py-24, .lg:py-32 {
+      padding: 20px; /* 调整间距 */
+    }
+
+    .grid {
+      display: grid; 
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 响应式网格布局 */ 
+      gap: 20px;
+    }
+
+    iframe {
+      max-width: 100%; /* 视频响应式宽度 */
+      height: auto; /* 自动调整高度 */
+      border: none; /* 去除边框 */
+    }
+  </style>
+
+</head>
+<body>
+  <div class="custom-text">stablevideodiffusion.live</div>
+  <script src="script.js"></script>  
+
+  <!-- Section Testimonial --> 
+  <section> 
+    <!-- Container --> 
+    <div class="mx-auto w-full max-w-5xl px-5 py-16 md:px-10 md:py-24 lg:py-32">  
+      <!-- Title -->
+      <h2 class="mb-6 text-center text-3xl font-bold md:mb-12 md:text-5xl">Introducing Stable Video Diffusion</h2> 
+      <!-- Content -->
+      <ul class="grid items-center justify-items-center gap-8 sm:gap-20 lg:grid-cols-2">  
+        <p class="mb-4 max-w-lg text-[#636262]">Stable Video Diffusion AI represents a cutting-edge leap in video generative AI. Leveraging artificial intelligence algorithms, this tool converts static images into high-resolution, captivating videos.</p> 
+        <h3 class="mb-6 text-center text-3xl font-bold md:mb-12 md:text-5xl">What is Stable Video Diffusion?</h3> 
+        <p class="mb-4 max-w-lg text-[#636262]">Stable Video is designed to serve a wide range of video applications in fields such as Media, Entertainment, Education, Marketing. It empowers individuals to transform text and image inputs into vivid scenes and elevates concepts into live action, cinematic creations.</p>
+          <h3 class="mb-6 text-center text-3xl font-bold md:mb-12 md:text-5xl">Competitive in Performance</h3>
+        
+        <p class="mb-4 max-w-lg text-[#636262]">Stable Video Diffusion is released in the form of two image-to-video models, each capable of generating 14 and 25 images with customizable frame rates ranging from 3 to 30 frames per second.</p>  
+        <p class="mb-4 max-w-lg text-[#636262]">Now available in research preview, this state-of-the-art generative AI video model represents a significant step in our journey toward creating models for everyone of every type.  </p> 
+        
+
+        <!-- Video Embedding --> 
+        <div class="mb-4 flex h-72 items-center justify-center"> 
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/aEAy24d8F6E" title="The Second Silence - w. Stable Video Diffusion" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+        </div>
+
+        <div class="mb-4 flex h-72 items-center justify-center">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/G7mihAy691g" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </ul>
+    </div>
+  </section>
+</body>
+</html>
